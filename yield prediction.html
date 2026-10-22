@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yield Prediction | Smart Agriculture Botswana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<div class="logo"><img src="images/smartlogo.png" alt="Logo"></div>
+<nav>
+    <a href="Home.html">Home</a> <a href="dashboard.html">Dashboard</a> <a href="yield prediction.html">Yield Prediction</a> <a href="risk assessment.html">Yield Assessment</a> <a href="recommendation.html">Recommendations</a> <a href="about us.html">About Us</a>
+</nav>
+</header>
+<section class="hero">
+<CENTER>
+    <h1>Crop-Yield Prediction</h1>
+    <p>Enter agricultural and weather information to estimate crop yield.</p>
+	</CENTER>
+</section>
+
+<main>
+<CENTER>
+    <form id="predictionForm">
+        <h2>Enter Farm Information</h2>
+
+        <label for="crop">Crop type</label>
+        <select id="crop" required>
+            <option value="">Select crop</option>
+            <option value="Maize">Maize</option>
+            <option value="Sorghum">Sorghum</option>
+			<option value="Wheat">Wheat</option>
+        </select>
+
+        <label for="area">Area or location</label>
+        <input id="area" type="text"
+               placeholder="Enter the area used by your model" required>
+
+        <label for="year">Year</label>
+        <input id="year" type="number" min="1990" max="2100"
+               value="2026" required>
+
+        <label for="rainfall">Average annual rainfall (mm)</label>
+        <input id="rainfall" type="number" min="0" step="any" required>
+
+        <label for="temperature">Average temperature (°C)</label>
+        <input id="temperature" type="number" step="any" required>
+
+        <label for="pesticides">Pesticide usage (tonnes)</label>
+        <input id="pesticides" type="number" min="0" step="any" required>
+
+        <button type="submit">Submit Prediction Request</button>
+    </form>
+	</CENTER>
+
+    <div id="predictionResult" class="result" hidden></div>
+</main>
+
+<footer>
+<p> &copy; 2026 Smart Agriculture Botswana</p>
+</footer>
+
+
+<script>
+    document.getElementById("predictionForm").addEventListener("submit", function(event) {
+        event.preventDefault();
+
+        const result = document.getElementById("predictionResult");
+        result.hidden = false;
+        result.innerHTML = `
+            <h3>Input received</h3>
+            <p>Your farm information has been entered.</p>
+            <p>
+                To obtain a crop-yield prediction, this form must send the
+                inputs to the trained Random Forest model through a Python
+                backend. No yield has been predicted yet.
+            </p>
+        `;
+    });
+</script>
+</body>
+</html>

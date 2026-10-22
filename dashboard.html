@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agricultural Dashboard | Smart Agriculture Botswana</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<header>
+ <div class="logo"><img src="images/smartlogo.png" alt="Logo"></div>
+<nav>
+    <a href="Home.html">Home</a> <a href="dashboard.html">Dashboard</a> <a href="yield prediction.html">Yield Prediction</a> <a href="risk assessment.html">Yield Assessment</a> <a href="recommendation.html">Recommendations</a> <a href="about us.html">About Us</a>
+</nav>
+</header>
+<section class="hero">
+<CENTER>
+    <h1>Agricultural Dashboard</h1>
+    <p>Explore agricultural data and crop-yield patterns.</p>
+	</CENTER>
+</section>
+
+<main>
+    <div class="card-container">
+        <div class="card">
+            <h3>Dataset Records</h3>
+            <p>View the number of agricultural observations in your dataset.</p>
+            <strong id="recordCount">Not loaded</strong>
+        </div>
+
+        <div class="card">
+            <h3>Crop Types</h3>
+            <p>Explore the crops represented in the data.</p>
+            <strong id="cropCount">Not loaded</strong>
+        </div>
+
+        <div class="card">
+            <h3>Average Yield</h3>
+            <p>Average of the available yield observations.</p>
+            <strong id="averageYield">Not loaded</strong>
+        </div>
+    </div>
+
+    <section class="card">
+        <h2>Crop-Yield Trends</h2>
+        <p>
+            This chart uses illustrative values. Replace them with results
+            calculated from your cleaned dataset before presenting your findings.
+        </p>
+        <canvas id="yieldChart"></canvas>
+    </section>
+
+    <section class="card">
+        <h2>What can you learn?</h2>
+        <ul>
+            <li>How recorded yields differ between crops.</li>
+            <li>How yields change over time.</li>
+            <li>Whether rainfall and temperature patterns may be associated with yield.</li>
+        </ul>
+    </section>
+</main>
+
+<footer>© 2026 Smart Agriculture Botswana</footer>
+
+<script>
+    // DEMONSTRATION DATA ONLY. Replace with actual dataset summaries.
+    const demoYears = ["2019", "2020", "2021", "2022", "2023"];
+    const demoYield = [1200, 1350, 1100, 1450, 1500];
+
+    new Chart(document.getElementById("yieldChart"), {
+        type: "line",
+        data: {
+            labels: demoYears,
+            datasets: [{
+                label: "Illustrative yield (hg/ha)",
+                data: demoYield,
+                borderColor: "#24733d",
+                backgroundColor: "#b7d9b9",
+                fill: true,
+                tension: 0.3
+            }]
+        },
+        options: {
+            responsive: true,
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    title: { display: true, text: "Yield (hg/ha)" }
+                },
+                x: {
+                    title: { display: true, text: "Year" }
+                }
+            }
+        }
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yield Assessment | Smart Agriculture Botswana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<div class="logo"><img src="images/smartlogo.png" alt="Logo"></div>
+<nav>
+    <a href="Home.html">Home</a> <a href="dashboard.html">Dashboard</a> <a href="yield prediction.html">Yield Prediction</a> <a href="risk assessment.html">Yield Assessment</a> <a href="recommendation.html">Recommendations</a> <a href="about us.html">About Us</a>
+</nav>
+</header>
+<section class="hero">
+<CENTER>
+    <h1>Crop-Yield Assessment</h1>
+    <p>Compare a recorded or predicted yield with a reference value.</p>
+	</CENTER>
+</section>
+
+<main>
+    <form id="assessmentForm">
+        <label for="crop">Crop type</label>
+        <select id="crop" required>
+            <option value="Maize">Maize</option>
+            <option value="Sorghum">Sorghum</option>
+			<option value="Wheat">Wheat</option>
+        </select>
+
+        <label for="actual">Actual or predicted yield (hg/ha)</label>
+        <input id="actual" type="number" min="0" step="any" required>
+
+        <label for="reference">Reference yield (hg/ha)</label>
+        <input id="reference" type="number" min="0.01" step="any" required>
+
+        <button type="submit">Assess Yield</button>
+    </form>
+
+    <section id="assessmentResult" class="result" hidden aria-live="polite"></section>
+</main>
+
+
+<footer>
+<P> &copy; 2026 Smart Agriculture Botswana.</P>
+
+</footer>
+
+<script>
+    document.getElementById("assessmentForm").addEventListener("submit", function(event) {
+        event.preventDefault();
+
+        const crop = document.getElementById("crop").value;
+        const actual = Number(document.getElementById("actual").value);
+        const reference = Number(document.getElementById("reference").value);
+        const result = document.getElementById("assessmentResult");
+
+        if (!Number.isFinite(actual) || !Number.isFinite(reference) ||
+            actual < 0 || reference <= 0) {
+            result.hidden = false;
+            result.textContent = "Enter a non-negative yield and a reference yield greater than zero.";
+            return;
+        }
+
+        const difference = actual - reference;
+        const percentage = (difference / reference) * 100;
+
+        let status;
+        if (difference > 0) {
+            status = "The entered yield is above the reference yield.";
+        } else if (difference < 0) {
+            status = "The entered yield is below the reference yield.";
+        } else {
+            status = "The entered yield equals the reference yield.";
+        }
+
+        result.hidden = false;
+        result.replaceChildren();
+
+        const heading = document.createElement("h2");
+        heading.textContent = "Assessment Result";
+        result.appendChild(heading);
+
+        const cropLine = document.createElement("p");
+        cropLine.textContent = "Crop: " + crop;
+        result.appendChild(cropLine);
+
+        const yieldLine = document.createElement("p");
+        yieldLine.textContent = "Entered yield: " + actual.toLocaleString() + " hg/ha";
+        result.appendChild(yieldLine);
+
+        const referenceLine = document.createElement("p");
+        referenceLine.textContent = "Reference yield: " + reference.toLocaleString() + " hg/ha";
+        result.appendChild(referenceLine);
+
+        const differenceLine = document.createElement("p");
+        differenceLine.textContent = "Difference: " +
+            difference.toLocaleString(undefined, {maximumFractionDigits: 2}) +
+            " hg/ha (" + percentage.toFixed(2) + "%)";
+        result.appendChild(differenceLine);
+
+        const statusLine = document.createElement("strong");
+        statusLine.textContent = status;
+        result.appendChild(statusLine);
+
+        const note = document.createElement("p");
+        note.textContent =
+            "Use a comparable reference for the same crop, unit, location and relevant season. " +
+            "This comparison does not identify the cause of a yield difference.";
+        result.appendChild(note);
+    });
+</script>
+</body>
+</html>

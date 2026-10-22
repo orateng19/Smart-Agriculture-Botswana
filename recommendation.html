@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farming Recommendations | Smart Agriculture Botswana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<div class="logo"><img src="images/smartlogo.png" alt="Logo"></div>
+<nav>
+    <a href="Home.html">Home</a> <a href="dashboard.html">Dashboard</a> <a href="yield prediction.html">Yield Prediction</a> <a href="risk assessment.html">Yield Assessment</a> <a href="recommendation.html">Recommendations</a> <a href="about us.html">About Us</a>
+</nav>
+</header>
+<section class="hero">
+<CENTER>
+    <h1>Farming Recommendations</h1>
+    <p>Explore general guidance for agricultural planning.</p>
+	</CENTER>
+</section>
+
+<main>
+<CENTER>
+    <form id="recommendationForm">
+        <label for="crop">Crop type</label>
+        <select id="crop" required>
+            <option value="Maize">Maize</option>
+            <option value="Sorghum">Sorghum</option>
+			<option value="Wheat">Wheat</option>
+        </select>
+
+        <label for="rain">Rainfall outlook</label>
+        <select id="rain" required>
+            <option value="low">Below normal</option>
+            <option value="normal">Near normal</option>
+            <option value="high">Above normal</option>
+            <option value="unknown">Not known</option>
+        </select>
+
+        <label for="soil">Soil moisture</label>
+        <select id="soil" required>
+            <option value="low">Low</option>
+            <option value="adequate">Adequate</option>
+            <option value="high">High</option>
+            <option value="unknown">Not measured</option>
+        </select>
+
+        <label for="heat">Temperature outlook</label>
+        <select id="heat" required>
+            <option value="hot">Hotter than usual</option>
+            <option value="normal">Near normal</option>
+            <option value="cool">Cooler than usual</option>
+            <option value="unknown">Not known</option>
+        </select>
+
+        <button type="submit">Get Recommendations</button>
+		
+    </form>
+ </CENTER>
+    <section id="recommendationResult" class="result" hidden>
+        <h2>Suggested Actions</h2>
+        <ul id="recommendationList"></ul>
+        <p>Confirm advice with local agricultural extension officers.</p>
+    </section>
+</main>
+
+<footer>
+<p>&copy; 2026 Smart Agriculture Botswana</p>
+
+</footer>
+
+<script>
+    document.getElementById("recommendationForm").addEventListener("submit", function(event) {
+        event.preventDefault();
+
+        const crop = document.getElementById("crop").value;
+        const rain = document.getElementById("rain").value;
+        const soil = document.getElementById("soil").value;
+        const heat = document.getElementById("heat").value;
+
+        const actions = [];
+
+        if (rain === "low") {
+            actions.push("Review locally appropriate water-conservation and planting options.");
+        } else if (rain === "high") {
+            actions.push("Monitor field drainage and weather forecasts for excessive rainfall.");
+        } else if (rain === "unknown") {
+            actions.push("Consult a reliable local seasonal forecast before planning.");
+        }
+
+        if (soil === "low") {
+            actions.push("Check soil moisture and assess feasible water-management measures.");
+        } else if (soil === "high") {
+            actions.push("Check for waterlogging and assess whether drainage is adequate.");
+        } else if (soil === "unknown") {
+            actions.push("Measure soil moisture where possible before making irrigation decisions.");
+        }
+
+        if (heat === "hot") {
+            actions.push("Monitor the crop for heat stress and follow crop-specific local guidance.");
+        } else if (heat === "unknown") {
+            actions.push("Check the forecast for temperatures during the crop's growth stage.");
+        }
+
+        if (actions.length === 0) {
+            actions.push("Continue monitoring crop condition, rainfall, temperature and soil moisture.");
+        }
+
+        const list = document.getElementById("recommendationList");
+        list.replaceChildren();
+
+        actions.forEach(function(action) {
+            const item = document.createElement("li");
+            item.textContent = action;
+            list.appendChild(item);
+        });
+
+        document.getElementById("recommendationResult").hidden = false;
+        document.getElementById("recommendationResult").scrollIntoView({
+            behavior: "smooth"
+        });
+    });
+</script>
+</body>
+</html>
