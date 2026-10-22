@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmer Login | Smart Agriculture Botswana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<div class="logo"><img src="images/smartlogo.png" alt="Logo"></div>
+<nav>
+    <a href="index.html">Home</a> <a href ="login.html">Farmer login</a> <a href="dashboard.html">Dashboard</a> <a href="yield prediction.html">Yield_Prediction</a> <a href="risk assessment.html">Yield_Assessment</a> <a href="recommendation.html">Recommendations</a> <a href="about us.html">About Us</a>
+</nav>
+</header>
+    
+
+    <main class="auth-container">
+        <section class="auth-card">
+
+            <div class="auth-icon">🌾</div>
+            <h1 id="form-title">Farmer Login</h1>
+            <p id="form-description">
+                Welcome back! Sign in to access your farming dashboard.
+            </p>
+
+            <div class="auth-tabs">
+                <button type="button" id="login-tab"
+                        class="auth-tab active">
+                    Login
+                </button>
+                <button type="button" id="signup-tab" class="auth-tab">
+                    Sign Up
+                </button>
+            </div>
+
+            <form id="auth-form">
+
+                <div id="signup-fields" hidden>
+                    <label for="farmer-name">Full Name</label>
+                    <input type="text" id="farmer-name"
+                           placeholder="Enter your full name"
+                           autocomplete="name">
+
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone"
+                           placeholder="e.g. 71234567"
+                           autocomplete="tel">
+
+                    <label for="village">Village / District</label>
+                    <input type="text" id="village"
+                           placeholder="e.g. Serowe">
+
+                    <label for="farm-name">Farm Name (optional)</label>
+                    <input type="text" id="farm-name"
+                           placeholder="Enter your farm name">
+                </div>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email"
+                       placeholder="Enter your email"
+                       autocomplete="email" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password"
+                       placeholder="Enter your password"
+                       autocomplete="current-password"
+                       minlength="8" required>
+
+                <div id="confirm-password-field" hidden>
+                    <label for="confirm-password">
+                        Confirm Password
+                    </label>
+                    <input type="password" id="confirm-password"
+                           placeholder="Re-enter your password"
+                           minlength="8"
+                           autocomplete="new-password">
+                </div>
+
+                <button type="submit" class="auth-submit"
+                        id="submit-button">
+                    Login
+                </button>
+
+                <p id="message" class="auth-message"
+                   role="status" aria-live="polite"></p>
+            </form>
+
+            <p class="auth-footer">
+                Your farming journey starts here 🌱
+            </p>
+
+        </section>
+    </main>
+	<footer>
+    <p>&copy; 2026 Smart Agriculture Botswana.</p>
+</footer>
+
+    <script src="login.js"></script>
+</body>
+</html>

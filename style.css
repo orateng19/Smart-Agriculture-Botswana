@@ -27,13 +27,13 @@ body {
 header {
     background: #174b2b;
     display: flex;
-    align-items: center;          /* logo and links on the same line */
+    align-items: center;          
     padding: 0 20px;
-    height: 64px;                 /* slim bar like the BAC one */
+    height: 64px;                 
 }
 
 header .logo img {
-    height: 46px;                 /* small logo, not 170px tall */
+    height: 46px;                 
     width: auto;
     display: block;
     border-radius: 6px;
@@ -41,24 +41,24 @@ header .logo img {
 
 nav {
     display: flex;
-    align-items: stretch;         /* links fill the full bar height */
+    align-items: stretch;        
     margin-left: 20px;
     height: 100%;
 }
 
 nav a {
     display: flex;
-    align-items: center;          /* text centred vertically */
-    padding: 0 18px;              /* the space around each link */
+    align-items: center;          
+    padding: 0 18px;              
     color: white;
     text-decoration: none;
-    font-weight: normal;          /* BAC uses regular weight, not bold */
+    font-weight: normal;          
     font-size: 17px;
 }
 
 nav a:hover,
 nav a.active {
-    background: #0e2e1a;          /* darker green block, like "My courses" */
+    background: #0e2e1a;          
     color: white;
 }
 
@@ -190,4 +190,224 @@ canvas {
     .logo span {
         font-size: 16px;
     }
+}
+
+
+/* FARMER LOGIN AND SIGNUP PAGE */
+
+.login-page {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #e8f5e9, #f7f9f4);
+    color: #263b2a;
+}
+
+.login-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 7%;
+    background: #174d2b;
+}
+
+.brand {
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.home-link {
+    color: white;
+    text-decoration: none;
+}
+
+.auth-container {
+    min-height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 16px;
+    box-sizing: border-box;
+}
+
+.auth-card {
+    width: 100%;
+    max-width: 430px;
+    padding: 32px;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.10);
+    box-sizing: border-box;
+}
+
+.auth-icon {
+    text-align: center;
+    font-size: 45px;
+}
+
+.auth-card h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #174d2b;
+}
+
+.auth-card > p {
+    text-align: center;
+    line-height: 1.5;
+}
+
+.auth-tabs {
+    display: flex;
+    margin: 25px 0;
+    border-bottom: 2px solid #e5e5e5;
+}
+
+.auth-tab {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    background: transparent;
+    color: #555;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.auth-tab.active {
+    color: #174d2b;
+    font-weight: bold;
+    border-bottom: 3px solid #2e7d32;
+}
+
+.auth-card form label {
+    display: block;
+    margin: 15px 0 7px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.auth-card form input {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbd5cc;
+    border-radius: 7px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.auth-card form input:focus {
+    outline: 2px solid #66bb6a;
+    border-color: #2e7d32;
+}
+
+.auth-submit {
+    width: 100%;
+    margin-top: 25px;
+    padding: 14px;
+    border: none;
+    border-radius: 7px;
+    background: #24763b;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.auth-submit:hover {
+    background: #174d2b;
+}
+
+.auth-message {
+    font-size: 14px;
+    overflow-wrap: anywhere;
+}
+
+.auth-footer {
+    margin-top: 24px;
+    color: #55705a;
+    font-size: 14px;
+}
+
+[hidden] {
+    display: none !important;
+}
+
+@media (max-width: 480px) {
+    .auth-card {
+        padding: 22px;
+    }
+
+    .brand {
+        font-size: 17px;
+    }
+}
+
+/* Navigation menu */
+.navbar {
+    background: #174d2b;
+    padding: 18px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.navbar .logo {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.nav-links a:hover {
+    color: #a5d6a7;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 12px;
+    }
+}
+.navbar {
+    background: #174d2b;
+    padding: 18px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.navbar .logo,
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
 }
