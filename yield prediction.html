@@ -64,24 +64,69 @@
 </footer>
 
 
-<script>
-	const API_URL = "https://smart-agriculture-api-89xy.onrender.com/predict";
 
-    document.getElementById("predictionForm").addEventListener("submit", function(event) {
+<script>
+    // Connection to your deployed Flask API
+    const API_URL = "https://smart-agriculture-api-89xy.onrender.com/predict";
+
+    document.getElementById("predictionForm").addEventListener("submit", async function(event) {
         event.preventDefault();
 
         const result = document.getElementById("predictionResult");
         result.hidden = false;
-        result.innerHTML = `
-            <h3>Input received</h3>
-            <p>Your farm information has been entered.</p>
-            <p>
-                To obtain a crop-yield prediction, this form must send the
-                inputs to the trained Random Forest model through a Python
-                backend. No yield has been predicted yet.
-            </p>
-        `;
+        result.innerHTML = "<p>Generating your crop-yield prediction...</p>";
+
+        // Collect the farmer's information
+        const farmData = {
+            Area: document.getElementById("area").value.trim(),
+            Item: document.getElementById("crop").value,
+            Year: Number(document.getElementById("year").value),
+            average_rain_fall_mm_per_year: Number(document.getElementById("rainfall").value),
+            pesticides_tonnes: Number(document.getElementById("pesticides").value),
+            avg_temp: Number(document.getElementById("temperature").value)
+        };
+
+        try {
+            // Send the information to your Flask model
+            const response = await fetch(API_URL, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(farmData)
+            });
+
+            const data = await response.json();
+
+            if (!response.ok) {
+                throw new Error(data.error || "The prediction request failed.");
+            }
+
+            // Display the model's prediction
+            result.innerHTML = `
+                <h3>Crop-Yield Prediction Result</h3>
+                <p><strong>Crop:</strong> ${farmData.Item}</p>
+                <p><strong>Area:</strong> ${farmData.Area}</p>
+                <p><strong>Predicted yield:</strong>
+                    ${Number(data.predicted_yield).toLocaleString(
+                        undefined,
+                        { maximumFractionDigits: 2 }
+                    )} ${data.unit || ""}
+                </p>
+            `;
+
+        } catch (error) {
+            console.error("Prediction error:", error);
+
+            result.innerHTML = `
+                <h3>Prediction Unavailable</h3>
+                <p>${error.message}</p>
+                <p>Please check your inputs and try again.</p>
+            `;
+        }
     });
+</script>
+
 </script>
 </body>
 </html>
