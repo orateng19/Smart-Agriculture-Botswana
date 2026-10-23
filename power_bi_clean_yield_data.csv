@@ -1,0 +1,548 @@
+Area,Item,Year,hg/ha_yield,average_rain_fall_mm_per_year,pesticides_tonnes,avg_temp
+Botswana,Maize,1990,2899,416.0,17.0,19.54
+Botswana,Sorghum,1990,2500,416.0,17.0,19.54
+Botswana,Wheat,1990,26178,416.0,17.0,19.54
+Botswana,Maize,1991,3962,416.0,19.0,19.29
+Botswana,Sorghum,1991,3663,416.0,19.0,19.29
+Botswana,Wheat,1991,22464,416.0,19.0,19.29
+Botswana,Maize,1992,1899,416.0,17.0,20.59
+Botswana,Sorghum,1992,2909,416.0,17.0,20.59
+Botswana,Wheat,1992,21653,416.0,17.0,20.59
+Botswana,Maize,1993,1353,416.0,17.0,19.97
+Botswana,Sorghum,1993,5236,416.0,17.0,19.97
+Botswana,Wheat,1993,20843,416.0,17.0,19.97
+Botswana,Maize,1994,1698,416.0,17.0,19.26
+Botswana,Sorghum,1994,2182,416.0,17.0,19.26
+Botswana,Wheat,1994,20032,416.0,17.0,19.26
+Botswana,Maize,1995,9477,416.0,17.0,19.96
+Botswana,Sorghum,1995,3597,416.0,17.0,19.96
+Botswana,Wheat,1995,19222,416.0,17.0,19.96
+Botswana,Maize,1996,2463,416.0,17.0,19.1
+Botswana,Sorghum,1996,3592,416.0,17.0,19.1
+Botswana,Wheat,1996,19009,416.0,17.0,19.1
+Botswana,Maize,1997,2867,416.0,17.0,19.26
+Botswana,Sorghum,1997,2455,416.0,17.0,19.26
+Botswana,Wheat,1997,17235,416.0,17.0,19.26
+Botswana,Maize,1998,910,416.0,17.0,20.05
+Botswana,Sorghum,1998,3364,416.0,17.0,20.05
+Botswana,Wheat,1998,16667,416.0,17.0,20.05
+Botswana,Maize,1999,1111,416.0,17.0,20.24
+Botswana,Sorghum,1999,2669,416.0,17.0,20.24
+Botswana,Wheat,1999,16337,416.0,17.0,20.24
+Botswana,Maize,2000,1123,416.0,17.0,18.97
+Botswana,Sorghum,2000,1573,416.0,17.0,18.97
+Botswana,Wheat,2000,15878,416.0,17.0,18.97
+Botswana,Maize,2001,1992,416.0,17.0,19.36
+Botswana,Sorghum,2001,11538,416.0,17.0,19.36
+Botswana,Wheat,2001,15714,416.0,17.0,19.36
+Botswana,Maize,2002,2947,416.0,17.0,19.89
+Botswana,Sorghum,2002,4218,416.0,17.0,19.89
+Botswana,Wheat,2002,14563,416.0,17.0,19.89
+Botswana,Maize,2004,1743,416.0,17.0,19.41
+Botswana,Sorghum,2004,3343,416.0,17.0,19.41
+Botswana,Wheat,2004,12692,416.0,17.0,19.41
+Botswana,Maize,2005,2297,416.0,17.0,20.42
+Botswana,Sorghum,2005,18316,416.0,17.0,20.42
+Botswana,Wheat,2005,11614,416.0,17.0,20.42
+Botswana,Maize,2006,2511,416.0,17.0,18.97
+Botswana,Sorghum,2006,5024,416.0,17.0,18.97
+Botswana,Wheat,2006,10452,416.0,17.0,18.97
+Botswana,Maize,2007,1219,416.0,17.0,19.71
+Botswana,Sorghum,2007,9979,416.0,17.0,19.71
+Botswana,Wheat,2007,9000,416.0,17.0,19.71
+Botswana,Maize,2008,1844,416.0,17.0,19.63
+Botswana,Sorghum,2008,5507,416.0,17.0,19.63
+Botswana,Wheat,2008,8000,416.0,17.0,19.63
+Botswana,Maize,2009,2429,416.0,17.0,19.25
+Botswana,Sorghum,2009,5042,416.0,17.0,19.25
+Botswana,Maize,2010,1617,416.0,17.0,19.98
+Botswana,Sorghum,2010,5701,416.0,17.0,19.98
+Botswana,Maize,2011,3473,416.0,17.0,19.19
+Botswana,Sorghum,2011,6690,416.0,17.0,19.19
+Botswana,Maize,2012,1370,416.0,17.0,19.83
+Botswana,Sorghum,2012,6779,416.0,17.0,19.83
+Botswana,Maize,2013,849,416.0,17.0,18.69
+Botswana,Sorghum,2013,3168,416.0,17.0,18.69
+Lesotho,Maize,1990,11000,788.0,0.3,14.48
+Lesotho,Sorghum,1990,10112,788.0,0.3,14.48
+Lesotho,Wheat,1990,8118,788.0,0.3,14.48
+Lesotho,Maize,1991,5408,788.0,0.3,14.66
+Lesotho,Sorghum,1991,5399,788.0,0.3,14.66
+Lesotho,Wheat,1991,1959,788.0,0.3,14.66
+Lesotho,Maize,1992,5792,788.0,0.3,15.16
+Lesotho,Sorghum,1992,6123,788.0,0.3,15.16
+Lesotho,Wheat,1992,8580,788.0,0.3,15.16
+Lesotho,Maize,1993,8875,788.0,0.3,14.95
+Lesotho,Sorghum,1993,12704,788.0,0.3,14.95
+Lesotho,Wheat,1993,7330,788.0,0.3,14.95
+Lesotho,Maize,1994,8629,788.0,0.3,14.22
+Lesotho,Sorghum,1994,8756,788.0,0.3,14.22
+Lesotho,Wheat,1994,4199,788.0,0.3,14.22
+Lesotho,Maize,1995,8126,788.0,0.3,14.55
+Lesotho,Sorghum,1995,8028,788.0,0.3,14.55
+Lesotho,Wheat,1995,6166,788.0,0.3,14.55
+Lesotho,Maize,1996,12490,788.0,0.3,13.93
+Lesotho,Sorghum,1996,8591,788.0,0.3,13.93
+Lesotho,Wheat,1996,14108,788.0,0.3,13.93
+Lesotho,Maize,1997,9857,788.0,0.3,14.28
+Lesotho,Sorghum,1997,8056,788.0,0.3,14.28
+Lesotho,Wheat,1997,16291,788.0,0.3,14.28
+Lesotho,Maize,1998,13171,788.0,0.3,14.81
+Lesotho,Sorghum,1998,14763,788.0,0.3,14.81
+Lesotho,Wheat,1998,14810,788.0,0.3,14.81
+Lesotho,Maize,1999,9410,788.0,0.3,15.34
+Lesotho,Sorghum,1999,11089,788.0,0.3,15.34
+Lesotho,Wheat,1999,7388,788.0,0.3,15.34
+Lesotho,Maize,2000,6773,788.0,0.3,14.37
+Lesotho,Sorghum,2000,10378,788.0,0.3,14.37
+Lesotho,Wheat,2000,6547,788.0,0.3,14.37
+Lesotho,Maize,2001,8913,788.0,0.3,14.62
+Lesotho,Sorghum,2001,8640,788.0,0.3,14.62
+Lesotho,Wheat,2001,20515,788.0,0.3,14.62
+Lesotho,Maize,2002,8088,788.0,0.3,14.69
+Lesotho,Sorghum,2002,4225,788.0,0.3,14.69
+Lesotho,Wheat,2002,7172,788.0,0.3,14.69
+Lesotho,Maize,2004,6347,788.0,0.3,14.91
+Lesotho,Sorghum,2004,3933,788.0,0.3,14.91
+Lesotho,Wheat,2004,6401,788.0,0.3,14.91
+Lesotho,Maize,2005,7011,788.0,0.53,14.89
+Lesotho,Sorghum,2005,6240,788.0,0.53,14.89
+Lesotho,Wheat,2005,7234,788.0,0.53,14.89
+Lesotho,Maize,2006,5974,788.0,5.25,14.18
+Lesotho,Sorghum,2006,3290,788.0,5.25,14.18
+Lesotho,Wheat,2006,2685,788.0,5.25,14.18
+Lesotho,Maize,2007,4877,788.0,35.27,14.81
+Lesotho,Sorghum,2007,2436,788.0,35.27,14.81
+Lesotho,Wheat,2007,4316,788.0,35.27,14.81
+Lesotho,Maize,2008,4349,788.0,37.44,14.74
+Lesotho,Sorghum,2008,2866,788.0,37.44,14.74
+Lesotho,Wheat,2008,2415,788.0,37.44,14.74
+Lesotho,Maize,2009,4159,788.0,77.7,14.62
+Lesotho,Sorghum,2009,5773,788.0,77.7,14.62
+Lesotho,Wheat,2009,3473,788.0,77.7,14.62
+Lesotho,Maize,2010,9071,788.0,80.07,15.23
+Lesotho,Sorghum,2010,7189,788.0,80.07,15.23
+Lesotho,Wheat,2010,14693,788.0,80.07,15.23
+Lesotho,Maize,2011,6344,788.0,175.27,14.32
+Lesotho,Sorghum,2011,5092,788.0,175.27,14.32
+Lesotho,Wheat,2011,9965,788.0,175.27,14.32
+Lesotho,Maize,2012,6712,788.0,271.84,14.62
+Lesotho,Sorghum,2012,1343,788.0,271.84,14.62
+Lesotho,Wheat,2012,8641,788.0,271.84,14.62
+Lesotho,Maize,2013,8227,788.0,62.32,14.03
+Lesotho,Sorghum,2013,3051,788.0,62.32,14.03
+Lesotho,Wheat,2013,12345,788.0,62.32,14.03
+Namibia,Maize,1990,14871,285.0,42.0,20.4
+Namibia,Sorghum,1990,2052,285.0,42.0,20.4
+Namibia,Wheat,1990,44250,285.0,42.0,20.4
+Namibia,Maize,1991,11950,285.0,39.0,19.92
+Namibia,Sorghum,1991,3441,285.0,39.0,19.92
+Namibia,Wheat,1991,59000,285.0,39.0,19.92
+Namibia,Maize,1992,5953,285.0,48.0,20.36
+Namibia,Sorghum,1992,973,285.0,48.0,20.36
+Namibia,Wheat,1992,51933,285.0,48.0,20.36
+Namibia,Maize,1993,7764,285.0,56.0,20.43
+Namibia,Sorghum,1993,2333,285.0,56.0,20.43
+Namibia,Wheat,1993,43846,285.0,56.0,20.43
+Namibia,Maize,1994,11549,285.0,56.0,20.14
+Namibia,Sorghum,1994,2062,285.0,56.0,20.14
+Namibia,Wheat,1994,52500,285.0,56.0,20.14
+Namibia,Maize,1995,8768,285.0,56.0,20.76
+Namibia,Sorghum,1995,2933,285.0,56.0,20.76
+Namibia,Wheat,1995,55172,285.0,56.0,20.76
+Namibia,Maize,1996,6835,285.0,56.0,19.79
+Namibia,Sorghum,1996,2174,285.0,56.0,19.79
+Namibia,Wheat,1996,43846,285.0,56.0,19.79
+Namibia,Maize,1997,15727,285.0,56.0,19.97
+Namibia,Sorghum,1997,3740,285.0,56.0,19.97
+Namibia,Wheat,1997,46361,285.0,56.0,19.97
+Namibia,Maize,1998,6608,285.0,56.0,20.83
+Namibia,Sorghum,1998,1242,285.0,56.0,20.83
+Namibia,Wheat,1998,49336,285.0,56.0,20.83
+Namibia,Maize,1999,5276,285.0,56.0,20.62
+Namibia,Sorghum,1999,2074,285.0,56.0,20.62
+Namibia,Wheat,1999,36440,285.0,56.0,20.62
+Namibia,Maize,2000,7170,285.0,56.0,20.26
+Namibia,Sorghum,2000,4091,285.0,56.0,20.26
+Namibia,Wheat,2000,50847,285.0,56.0,20.26
+Namibia,Maize,2001,13254,285.0,56.0,20.37
+Namibia,Sorghum,2001,3821,285.0,56.0,20.37
+Namibia,Wheat,2001,60464,285.0,56.0,20.37
+Namibia,Maize,2002,13238,285.0,56.0,20.76
+Namibia,Sorghum,2002,1891,285.0,56.0,20.76
+Namibia,Wheat,2002,63724,285.0,56.0,20.76
+Namibia,Maize,2004,11301,285.0,56.0,21.01
+Namibia,Sorghum,2004,3249,285.0,56.0,21.01
+Namibia,Wheat,2004,41622,285.0,56.0,21.01
+Namibia,Maize,2005,22606,285.0,56.0,20.46
+Namibia,Sorghum,2005,2400,285.0,56.0,20.46
+Namibia,Wheat,2005,45255,285.0,56.0,20.46
+Namibia,Maize,2006,21053,285.0,56.0,19.42
+Namibia,Sorghum,2006,2911,285.0,56.0,19.42
+Namibia,Wheat,2006,59308,285.0,56.0,19.42
+Namibia,Maize,2007,20296,285.0,56.0,20.49
+Namibia,Sorghum,2007,2399,285.0,56.0,20.49
+Namibia,Wheat,2007,51342,285.0,56.0,20.49
+Namibia,Maize,2008,20980,285.0,56.0,20.18
+Namibia,Sorghum,2008,4018,285.0,56.0,20.18
+Namibia,Wheat,2008,61420,285.0,56.0,20.18
+Namibia,Maize,2009,21130,285.0,56.0,20.02
+Namibia,Sorghum,2009,2382,285.0,56.0,20.02
+Namibia,Wheat,2009,67214,285.0,56.0,20.02
+Namibia,Maize,2010,19882,285.0,56.0,20.62
+Namibia,Sorghum,2010,2901,285.0,56.0,20.62
+Namibia,Wheat,2010,61022,285.0,56.0,20.62
+Namibia,Maize,2011,19297,285.0,56.0,19.26
+Namibia,Sorghum,2011,2931,285.0,56.0,19.26
+Namibia,Wheat,2011,61267,285.0,56.0,19.26
+Namibia,Maize,2012,18999,285.0,56.0,20.11
+Namibia,Sorghum,2012,2862,285.0,56.0,20.11
+Namibia,Wheat,2012,61692,285.0,56.0,20.11
+Namibia,Maize,2013,18683,285.0,56.0,20.73
+Namibia,Sorghum,2013,2860,285.0,56.0,20.73
+Namibia,Wheat,2013,62084,285.0,56.0,20.73
+South Africa,Maize,1990,22051,495.0,16582.0,20.56
+South Africa,Maize,1990,22051,495.0,16582.0,15.56
+South Africa,Maize,1990,22051,495.0,16582.0,18.91
+South Africa,Maize,1990,22051,495.0,16582.0,15.56
+South Africa,Sorghum,1990,17398,495.0,16582.0,20.56
+South Africa,Sorghum,1990,17398,495.0,16582.0,15.56
+South Africa,Sorghum,1990,17398,495.0,16582.0,18.91
+South Africa,Sorghum,1990,17398,495.0,16582.0,15.56
+South Africa,Wheat,1990,10934,495.0,16582.0,20.56
+South Africa,Wheat,1990,10934,495.0,16582.0,15.56
+South Africa,Wheat,1990,10934,495.0,16582.0,18.91
+South Africa,Wheat,1990,10934,495.0,16582.0,15.56
+South Africa,Maize,1991,22573,495.0,16582.0,21.06
+South Africa,Maize,1991,22573,495.0,16582.0,15.56
+South Africa,Maize,1991,22573,495.0,16582.0,18.86
+South Africa,Maize,1991,22573,495.0,16582.0,15.56
+South Africa,Sorghum,1991,18193,495.0,16582.0,21.06
+South Africa,Sorghum,1991,18193,495.0,16582.0,15.56
+South Africa,Sorghum,1991,18193,495.0,16582.0,18.86
+South Africa,Sorghum,1991,18193,495.0,16582.0,15.56
+South Africa,Wheat,1991,14916,495.0,16582.0,21.06
+South Africa,Wheat,1991,14916,495.0,16582.0,15.56
+South Africa,Wheat,1991,14916,495.0,16582.0,18.86
+South Africa,Wheat,1991,14916,495.0,16582.0,15.56
+South Africa,Maize,1992,7853,495.0,16582.0,21.53
+South Africa,Maize,1992,7853,495.0,16582.0,16.48
+South Africa,Maize,1992,7853,495.0,16582.0,19.95
+South Africa,Maize,1992,7853,495.0,16582.0,16.48
+South Africa,Sorghum,1992,6178,495.0,16582.0,21.53
+South Africa,Sorghum,1992,6178,495.0,16582.0,16.48
+South Africa,Sorghum,1992,6178,495.0,16582.0,19.95
+South Africa,Sorghum,1992,6178,495.0,16582.0,16.48
+South Africa,Wheat,1992,17653,495.0,16582.0,21.53
+South Africa,Wheat,1992,17653,495.0,16582.0,16.48
+South Africa,Wheat,1992,17653,495.0,16582.0,19.95
+South Africa,Wheat,1992,17653,495.0,16582.0,16.48
+South Africa,Maize,1993,22840,495.0,16582.0,21.32
+South Africa,Maize,1993,22840,495.0,16582.0,16.01
+South Africa,Maize,1993,22840,495.0,16582.0,19.32
+South Africa,Maize,1993,22840,495.0,16582.0,16.01
+South Africa,Sorghum,1993,21564,495.0,16582.0,21.32
+South Africa,Sorghum,1993,21564,495.0,16582.0,16.01
+South Africa,Sorghum,1993,21564,495.0,16582.0,19.32
+South Africa,Sorghum,1993,21564,495.0,16582.0,16.01
+South Africa,Wheat,1993,18454,495.0,16582.0,21.32
+South Africa,Wheat,1993,18454,495.0,16582.0,16.01
+South Africa,Wheat,1993,18454,495.0,16582.0,19.32
+South Africa,Wheat,1993,18454,495.0,16582.0,16.01
+South Africa,Maize,1994,28481,495.0,16582.0,20.65
+South Africa,Maize,1994,28481,495.0,16582.0,15.1
+South Africa,Maize,1994,28481,495.0,16582.0,18.48
+South Africa,Maize,1994,28481,495.0,16582.0,15.1
+South Africa,Sorghum,1994,22916,495.0,16582.0,20.65
+South Africa,Sorghum,1994,22916,495.0,16582.0,15.1
+South Africa,Sorghum,1994,22916,495.0,16582.0,18.48
+South Africa,Sorghum,1994,22916,495.0,16582.0,15.1
+South Africa,Wheat,1994,17561,495.0,16582.0,20.65
+South Africa,Wheat,1994,17561,495.0,16582.0,15.1
+South Africa,Wheat,1994,17561,495.0,16582.0,18.48
+South Africa,Wheat,1994,17561,495.0,16582.0,15.1
+South Africa,Maize,1995,13800,495.0,18025.0,20.73
+South Africa,Maize,1995,13800,495.0,18025.0,15.77
+South Africa,Maize,1995,13800,495.0,18025.0,19.23
+South Africa,Maize,1995,13800,495.0,18025.0,15.77
+South Africa,Sorghum,1995,20319,495.0,18025.0,20.73
+South Africa,Sorghum,1995,20319,495.0,18025.0,15.77
+South Africa,Sorghum,1995,20319,495.0,18025.0,19.23
+South Africa,Sorghum,1995,20319,495.0,18025.0,15.77
+South Africa,Wheat,1995,14507,495.0,18025.0,20.73
+South Africa,Wheat,1995,14507,495.0,18025.0,15.77
+South Africa,Wheat,1995,14507,495.0,18025.0,19.23
+South Africa,Wheat,1995,14507,495.0,18025.0,15.77
+South Africa,Maize,1996,27043,495.0,19508.0,20.49
+South Africa,Maize,1996,27043,495.0,19508.0,15.23
+South Africa,Maize,1996,27043,495.0,19508.0,18.49
+South Africa,Maize,1996,27043,495.0,19508.0,15.23
+South Africa,Sorghum,1996,30774,495.0,19508.0,20.49
+South Africa,Sorghum,1996,30774,495.0,19508.0,15.23
+South Africa,Sorghum,1996,30774,495.0,19508.0,18.49
+South Africa,Sorghum,1996,30774,495.0,19508.0,15.23
+South Africa,Wheat,1996,20961,495.0,19508.0,20.49
+South Africa,Wheat,1996,20961,495.0,19508.0,15.23
+South Africa,Wheat,1996,20961,495.0,19508.0,18.49
+South Africa,Wheat,1996,20961,495.0,19508.0,15.23
+South Africa,Maize,1997,25195,495.0,21596.0,20.57
+South Africa,Maize,1997,25195,495.0,21596.0,15.38
+South Africa,Maize,1997,25195,495.0,21596.0,18.64
+South Africa,Maize,1997,25195,495.0,21596.0,15.38
+South Africa,Sorghum,1997,26917,495.0,21596.0,20.57
+South Africa,Sorghum,1997,26917,495.0,21596.0,15.38
+South Africa,Sorghum,1997,26917,495.0,21596.0,18.64
+South Africa,Sorghum,1997,26917,495.0,21596.0,15.38
+South Africa,Wheat,1997,17575,495.0,21596.0,20.57
+South Africa,Wheat,1997,17575,495.0,21596.0,15.38
+South Africa,Wheat,1997,17575,495.0,21596.0,18.64
+South Africa,Wheat,1997,17575,495.0,21596.0,15.38
+South Africa,Maize,1998,21611,495.0,24304.0,21.22
+South Africa,Maize,1998,21611,495.0,24304.0,16.11
+South Africa,Maize,1998,21611,495.0,24304.0,19.42
+South Africa,Maize,1998,21611,495.0,24304.0,16.11
+South Africa,Sorghum,1998,27306,495.0,24304.0,21.22
+South Africa,Sorghum,1998,27306,495.0,24304.0,16.11
+South Africa,Sorghum,1998,27306,495.0,24304.0,19.42
+South Africa,Sorghum,1998,27306,495.0,24304.0,16.11
+South Africa,Wheat,1998,25295,495.0,24304.0,21.22
+South Africa,Wheat,1998,25295,495.0,24304.0,16.11
+South Africa,Wheat,1998,25295,495.0,24304.0,19.42
+South Africa,Wheat,1998,25295,495.0,24304.0,16.11
+South Africa,Maize,1999,22274,495.0,26098.8,21.64
+South Africa,Maize,1999,22274,495.0,26098.8,16.09
+South Africa,Maize,1999,22274,495.0,26098.8,19.27
+South Africa,Maize,1999,22274,495.0,26098.8,16.09
+South Africa,Sorghum,1999,22602,495.0,26098.8,21.64
+South Africa,Sorghum,1999,22602,495.0,26098.8,16.09
+South Africa,Sorghum,1999,22602,495.0,26098.8,19.27
+South Africa,Sorghum,1999,22602,495.0,26098.8,16.09
+South Africa,Wheat,1999,24137,495.0,26098.8,21.64
+South Africa,Wheat,1999,24137,495.0,26098.8,16.09
+South Africa,Wheat,1999,24137,495.0,26098.8,19.27
+South Africa,Wheat,1999,24137,495.0,26098.8,16.09
+South Africa,Maize,2000,28492,495.0,26857.0,20.74
+South Africa,Maize,2000,28492,495.0,26857.0,15.13
+South Africa,Maize,2000,28492,495.0,26857.0,18.26
+South Africa,Maize,2000,28492,495.0,26857.0,15.13
+South Africa,Sorghum,2000,33246,495.0,26857.0,20.74
+South Africa,Sorghum,2000,33246,495.0,26857.0,15.13
+South Africa,Sorghum,2000,33246,495.0,26857.0,18.26
+South Africa,Sorghum,2000,33246,495.0,26857.0,15.13
+South Africa,Wheat,2000,25997,495.0,26857.0,20.74
+South Africa,Wheat,2000,25997,495.0,26857.0,15.13
+South Africa,Wheat,2000,25997,495.0,26857.0,18.26
+South Africa,Wheat,2000,25997,495.0,26857.0,15.13
+South Africa,Maize,2001,24371,495.0,26857.0,21.25
+South Africa,Maize,2001,24371,495.0,26857.0,15.68
+South Africa,Maize,2001,24371,495.0,26857.0,18.92
+South Africa,Maize,2001,24371,495.0,26857.0,15.68
+South Africa,Sorghum,2001,23429,495.0,26857.0,21.25
+South Africa,Sorghum,2001,23429,495.0,26857.0,15.68
+South Africa,Sorghum,2001,23429,495.0,26857.0,18.92
+South Africa,Sorghum,2001,23429,495.0,26857.0,15.68
+South Africa,Wheat,2001,25708,495.0,26857.0,21.25
+South Africa,Wheat,2001,25708,495.0,26857.0,15.68
+South Africa,Wheat,2001,25708,495.0,26857.0,18.92
+South Africa,Wheat,2001,25708,495.0,26857.0,15.68
+South Africa,Maize,2002,28516,495.0,26857.0,21.07
+South Africa,Maize,2002,28516,495.0,26857.0,15.88
+South Africa,Maize,2002,28516,495.0,26857.0,19.28
+South Africa,Maize,2002,28516,495.0,26857.0,15.88
+South Africa,Sorghum,2002,34286,495.0,26857.0,21.07
+South Africa,Sorghum,2002,34286,495.0,26857.0,15.88
+South Africa,Sorghum,2002,34286,495.0,26857.0,19.28
+South Africa,Sorghum,2002,34286,495.0,26857.0,15.88
+South Africa,Wheat,2002,25906,495.0,26857.0,21.07
+South Africa,Wheat,2002,25906,495.0,26857.0,15.88
+South Africa,Wheat,2002,25906,495.0,26857.0,19.28
+South Africa,Wheat,2002,25906,495.0,26857.0,15.88
+South Africa,Maize,2004,30305,495.0,26857.0,21.11
+South Africa,Maize,2004,30305,495.0,26857.0,15.49
+South Africa,Maize,2004,30305,495.0,26857.0,18.75
+South Africa,Maize,2004,30305,495.0,26857.0,15.49
+South Africa,Sorghum,2004,28692,495.0,26857.0,21.11
+South Africa,Sorghum,2004,28692,495.0,26857.0,15.49
+South Africa,Sorghum,2004,28692,495.0,26857.0,18.75
+South Africa,Sorghum,2004,28692,495.0,26857.0,15.49
+South Africa,Wheat,2004,20325,495.0,26857.0,21.11
+South Africa,Wheat,2004,20325,495.0,26857.0,15.49
+South Africa,Wheat,2004,20325,495.0,26857.0,18.75
+South Africa,Wheat,2004,20325,495.0,26857.0,15.49
+South Africa,Maize,2005,36351,495.0,26857.0,21.14
+South Africa,Maize,2005,36351,495.0,26857.0,16.29
+South Africa,Maize,2005,36351,495.0,26857.0,19.74
+South Africa,Maize,2005,36351,495.0,26857.0,16.29
+South Africa,Sorghum,2005,30058,495.0,26857.0,21.14
+South Africa,Sorghum,2005,30058,495.0,26857.0,16.29
+South Africa,Sorghum,2005,30058,495.0,26857.0,19.74
+South Africa,Sorghum,2005,30058,495.0,26857.0,16.29
+South Africa,Wheat,2005,23665,495.0,26857.0,21.14
+South Africa,Wheat,2005,23665,495.0,26857.0,16.29
+South Africa,Wheat,2005,23665,495.0,26857.0,19.74
+South Africa,Wheat,2005,23665,495.0,26857.0,16.29
+South Africa,Maize,2006,34122,495.0,26857.0,20.86
+South Africa,Maize,2006,34122,495.0,26857.0,15.26
+South Africa,Maize,2006,34122,495.0,26857.0,18.42
+South Africa,Maize,2006,34122,495.0,26857.0,15.26
+South Africa,Sorghum,2006,25841,495.0,26857.0,20.86
+South Africa,Sorghum,2006,25841,495.0,26857.0,15.26
+South Africa,Sorghum,2006,25841,495.0,26857.0,18.42
+South Africa,Sorghum,2006,25841,495.0,26857.0,15.26
+South Africa,Wheat,2006,27516,495.0,26857.0,20.86
+South Africa,Wheat,2006,27516,495.0,26857.0,15.26
+South Africa,Wheat,2006,27516,495.0,26857.0,18.42
+South Africa,Wheat,2006,27516,495.0,26857.0,15.26
+South Africa,Maize,2007,27921,495.0,26857.0,21.07
+South Africa,Maize,2007,27921,495.0,26857.0,15.9
+South Africa,Maize,2007,27921,495.0,26857.0,18.98
+South Africa,Maize,2007,27921,495.0,26857.0,15.9
+South Africa,Sorghum,2007,25507,495.0,26857.0,21.07
+South Africa,Sorghum,2007,25507,495.0,26857.0,15.9
+South Africa,Sorghum,2007,25507,495.0,26857.0,18.98
+South Africa,Sorghum,2007,25507,495.0,26857.0,15.9
+South Africa,Wheat,2007,30142,495.0,26857.0,21.07
+South Africa,Wheat,2007,30142,495.0,26857.0,15.9
+South Africa,Wheat,2007,30142,495.0,26857.0,18.98
+South Africa,Wheat,2007,30142,495.0,26857.0,15.9
+South Africa,Maize,2008,45373,495.0,26857.0,20.89
+South Africa,Maize,2008,45373,495.0,26857.0,15.75
+South Africa,Maize,2008,45373,495.0,26857.0,18.91
+South Africa,Maize,2008,45373,495.0,26857.0,15.75
+South Africa,Sorghum,2008,29378,495.0,26857.0,20.89
+South Africa,Sorghum,2008,29378,495.0,26857.0,15.75
+South Africa,Sorghum,2008,29378,495.0,26857.0,18.91
+South Africa,Sorghum,2008,29378,495.0,26857.0,15.75
+South Africa,Wheat,2008,28476,495.0,26857.0,20.89
+South Africa,Wheat,2008,28476,495.0,26857.0,15.75
+South Africa,Wheat,2008,28476,495.0,26857.0,18.91
+South Africa,Wheat,2008,28476,495.0,26857.0,15.75
+South Africa,Maize,2009,49640,495.0,26857.0,20.71
+South Africa,Maize,2009,49640,495.0,26857.0,15.44
+South Africa,Maize,2009,49640,495.0,26857.0,18.67
+South Africa,Maize,2009,49640,495.0,26857.0,15.44
+South Africa,Sorghum,2009,32339,495.0,26857.0,20.71
+South Africa,Sorghum,2009,32339,495.0,26857.0,15.44
+South Africa,Sorghum,2009,32339,495.0,26857.0,18.67
+South Africa,Sorghum,2009,32339,495.0,26857.0,15.44
+South Africa,Wheat,2009,30475,495.0,26857.0,20.71
+South Africa,Wheat,2009,30475,495.0,26857.0,15.44
+South Africa,Wheat,2009,30475,495.0,26857.0,18.67
+South Africa,Wheat,2009,30475,495.0,26857.0,15.44
+South Africa,Maize,2010,46736,495.0,26857.0,21.54
+South Africa,Maize,2010,46736,495.0,26857.0,16.11
+South Africa,Maize,2010,46736,495.0,26857.0,19.31
+South Africa,Maize,2010,46736,495.0,26857.0,16.11
+South Africa,Sorghum,2010,22671,495.0,26857.0,21.54
+South Africa,Sorghum,2010,22671,495.0,26857.0,16.11
+South Africa,Sorghum,2010,22671,495.0,26857.0,19.31
+South Africa,Sorghum,2010,22671,495.0,26857.0,16.11
+South Africa,Wheat,2010,25623,495.0,26857.0,21.54
+South Africa,Wheat,2010,25623,495.0,26857.0,16.11
+South Africa,Wheat,2010,25623,495.0,26857.0,19.31
+South Africa,Wheat,2010,25623,495.0,26857.0,16.11
+South Africa,Maize,2011,43671,495.0,26857.0,20.72
+South Africa,Maize,2011,43671,495.0,26857.0,15.49
+South Africa,Maize,2011,43671,495.0,26857.0,18.75
+South Africa,Maize,2011,43671,495.0,26857.0,15.49
+South Africa,Sorghum,2011,22399,495.0,26857.0,20.72
+South Africa,Sorghum,2011,22399,495.0,26857.0,15.49
+South Africa,Sorghum,2011,22399,495.0,26857.0,18.75
+South Africa,Sorghum,2011,22399,495.0,26857.0,15.49
+South Africa,Wheat,2011,33157,495.0,26857.0,20.72
+South Africa,Wheat,2011,33157,495.0,26857.0,15.49
+South Africa,Wheat,2011,33157,495.0,26857.0,18.75
+South Africa,Wheat,2011,33157,495.0,26857.0,15.49
+South Africa,Maize,2012,44905,495.0,26857.0,21.24
+South Africa,Maize,2012,44905,495.0,26857.0,15.89
+South Africa,Maize,2012,44905,495.0,26857.0,19.14
+South Africa,Maize,2012,44905,495.0,26857.0,15.89
+South Africa,Sorghum,2012,27806,495.0,26857.0,21.24
+South Africa,Sorghum,2012,27806,495.0,26857.0,15.89
+South Africa,Sorghum,2012,27806,495.0,26857.0,19.14
+South Africa,Sorghum,2012,27806,495.0,26857.0,15.89
+South Africa,Wheat,2012,37476,495.0,26857.0,21.24
+South Africa,Wheat,2012,37476,495.0,26857.0,15.89
+South Africa,Wheat,2012,37476,495.0,26857.0,19.14
+South Africa,Wheat,2012,37476,495.0,26857.0,15.89
+South Africa,Maize,2013,42466,495.0,26857.0,21.31
+South Africa,Maize,2013,42466,495.0,26857.0,14.98
+South Africa,Maize,2013,42466,495.0,26857.0,18.0
+South Africa,Maize,2013,42466,495.0,26857.0,14.98
+South Africa,Sorghum,2013,23507,495.0,26857.0,21.31
+South Africa,Sorghum,2013,23507,495.0,26857.0,14.98
+South Africa,Sorghum,2013,23507,495.0,26857.0,18.0
+South Africa,Sorghum,2013,23507,495.0,26857.0,14.98
+South Africa,Wheat,2013,36993,495.0,26857.0,21.31
+South Africa,Wheat,2013,36993,495.0,26857.0,14.98
+South Africa,Wheat,2013,36993,495.0,26857.0,18.0
+South Africa,Wheat,2013,36993,495.0,26857.0,14.98
+Zimbabwe,Maize,1990,17206,657.0,5727.0,21.19
+Zimbabwe,Sorghum,1990,6836,657.0,5727.0,21.19
+Zimbabwe,Wheat,1990,58211,657.0,5727.0,21.19
+Zimbabwe,Maize,1991,14400,657.0,6753.0,20.95
+Zimbabwe,Sorghum,1991,5983,657.0,6753.0,20.95
+Zimbabwe,Wheat,1991,58912,657.0,6753.0,20.95
+Zimbabwe,Maize,1992,4108,657.0,3303.0,21.93
+Zimbabwe,Sorghum,1992,3914,657.0,3303.0,21.93
+Zimbabwe,Wheat,1992,50893,657.0,3303.0,21.93
+Zimbabwe,Maize,1993,16526,657.0,1716.0,20.88
+Zimbabwe,Sorghum,1993,6464,657.0,1716.0,20.88
+Zimbabwe,Wheat,1993,57708,657.0,1716.0,20.88
+Zimbabwe,Maize,1994,12133,657.0,1664.0,20.64
+Zimbabwe,Sorghum,1994,3276,657.0,1664.0,20.64
+Zimbabwe,Wheat,1994,54649,657.0,1664.0,20.64
+Zimbabwe,Maize,1995,5949,657.0,2599.0,21.57
+Zimbabwe,Sorghum,1995,3369,657.0,2599.0,21.57
+Zimbabwe,Wheat,1995,50360,657.0,2599.0,21.57
+Zimbabwe,Maize,1996,14150,657.0,2538.0,20.7
+Zimbabwe,Sorghum,1996,4381,657.0,2538.0,20.7
+Zimbabwe,Wheat,1996,54999,657.0,2538.0,20.7
+Zimbabwe,Maize,1997,11043,657.0,2762.0,20.63
+Zimbabwe,Sorghum,1997,3585,657.0,2762.0,20.63
+Zimbabwe,Wheat,1997,56000,657.0,2762.0,20.63
+Zimbabwe,Maize,1998,10125,657.0,2883.0,21.3
+Zimbabwe,Sorghum,1998,3106,657.0,2883.0,21.3
+Zimbabwe,Wheat,1998,55000,657.0,2883.0,21.3
+Zimbabwe,Maize,1999,10870,657.0,2918.18,20.44
+Zimbabwe,Sorghum,1999,3998,657.0,2918.18,20.44
+Zimbabwe,Wheat,1999,55000,657.0,2918.18,20.44
+Zimbabwe,Maize,2000,11795,657.0,2953.36,20.28
+Zimbabwe,Sorghum,2000,3983,657.0,2953.36,20.28
+Zimbabwe,Wheat,2000,54000,657.0,2953.36,20.28
+Zimbabwe,Maize,2001,12309,657.0,2988.54,20.86
+Zimbabwe,Sorghum,2001,5117,657.0,2988.54,20.86
+Zimbabwe,Wheat,2001,53000,657.0,2988.54,20.86
+Zimbabwe,Maize,2002,4554,657.0,3023.72,21.08
+Zimbabwe,Sorghum,2002,2652,657.0,3023.72,21.08
+Zimbabwe,Wheat,2002,50000,657.0,3023.72,21.08
+Zimbabwe,Maize,2004,12965,657.0,3094.08,20.31
+Zimbabwe,Sorghum,2004,6193,657.0,3094.08,20.31
+Zimbabwe,Wheat,2004,35000,657.0,3094.08,20.31
+Zimbabwe,Maize,2005,6195,657.0,3129.26,21.49
+Zimbabwe,Sorghum,2005,2726,657.0,3129.26,21.49
+Zimbabwe,Wheat,2005,35000,657.0,3129.26,21.49
+Zimbabwe,Maize,2006,9772,657.0,3164.45,20.7
+Zimbabwe,Sorghum,2006,4091,657.0,3164.45,20.7
+Zimbabwe,Wheat,2006,36000,657.0,3164.45,20.7
+Zimbabwe,Maize,2007,8651,657.0,3199.63,20.75
+Zimbabwe,Sorghum,2007,3332,657.0,3199.63,20.75
+Zimbabwe,Wheat,2007,29998,657.0,3199.63,20.75
+Zimbabwe,Maize,2008,2867,657.0,3234.81,20.68
+Zimbabwe,Sorghum,2008,2577,657.0,3234.81,20.68
+Zimbabwe,Wheat,2008,30097,657.0,3234.81,20.68
+Zimbabwe,Maize,2009,4642,657.0,3269.99,20.52
+Zimbabwe,Sorghum,2009,3230,657.0,3269.99,20.52
+Zimbabwe,Wheat,2009,30000,657.0,3269.99,20.52
+Zimbabwe,Maize,2010,8751,657.0,3305.17,21.17
+Zimbabwe,Sorghum,2010,2702,657.0,3305.17,21.17
+Zimbabwe,Wheat,2010,27681,657.0,3305.17,21.17
+Zimbabwe,Maize,2011,6568,657.0,3340.35,20.78
+Zimbabwe,Sorghum,2011,2267,657.0,3340.35,20.78
+Zimbabwe,Wheat,2011,26274,657.0,3340.35,20.78
+Zimbabwe,Maize,2012,7912,657.0,3375.53,20.52
+Zimbabwe,Sorghum,2012,2046,657.0,3375.53,20.52
+Zimbabwe,Wheat,2012,24420,657.0,3375.53,20.52
+Zimbabwe,Maize,2013,7449,657.0,2550.07,19.76
+Zimbabwe,Sorghum,2013,3066,657.0,2550.07,19.76
+Zimbabwe,Wheat,2013,22888,657.0,2550.07,19.76
