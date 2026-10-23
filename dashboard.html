@@ -34,13 +34,13 @@
         <div class="card">
             <h3>Crop Types</h3>
             <p>Explore the crops represented in the data.</p>
-            <strong id="cropCount">Not loaded</strong>
+            <strong id="cropTypes">Not loaded</strong>
         </div>
 
         <div class="card">
             <h3>Average Yield</h3>
             <p>Average of the available yield observations.</p>
-            <strong id="averageYield">Not loaded</strong>
+            <strong id="avgYield">Not loaded</strong>
         </div>
     </div>
 
@@ -96,6 +96,34 @@
             }
         }
     });
+</script>
+	<script>
+fetch("power_bi_clean_yield_data.csv")
+  .then(r => {
+    if (!r.ok) throw new Error("File not found");
+    return r.text();
+  })
+  .then(text => {
+    const lines = text.trim().split("\n");
+    const headers = lines[0].split(",").map(h => h.trim());
+    const rows = lines.slice(1).map(l => l.split(","));
+
+    const cropCol = headers.indexOf("Item");     // change to your column name
+    const yieldCol = headers.indexOf("hg/ha_yield");   // change to your column name
+
+    document.getElementById("recordCount").textContent = rows.length;
+
+    const crops = new Set(rows.map(r => r[cropCol].trim()));
+    document.getElementById("cropTypes").textContent = crops.size;
+
+    const yields = rows.map(r => parseFloat(r[yieldCol])).filter(n => !isNaN(n));
+    const avg = yields.reduce((a, b) => a + b, 0) / yields.length;
+    document.getElementById("avgYield").textContent = avg.toFixed(2);
+  })
+  .catch(err => {
+    console.error(err);
+    document.getElementById("recordCount").textContent = "Could not load data";
+  });
 </script>
 </body>
 </html>
