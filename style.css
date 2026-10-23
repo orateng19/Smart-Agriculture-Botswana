@@ -411,3 +411,335 @@ canvas {
     flex-wrap: wrap;
     gap: 15px;
 }
+
+
+/* =====================================
+   SMART AGRICULTURE BOTSWANA
+   RESPONSIVE / MOBILE-FRIENDLY CSS
+   ===================================== */
+
+/* Make sizing predictable */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #263528;
+    background-color: #f5f8f2;
+}
+
+/* Header and logo */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 100%;
+    padding: 12px 5%;
+    background-color: #174d2b;
+}
+
+.logo img {
+    display: block;
+    width: 100%;
+    max-width: 160px;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Navigation links */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px 18px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 8px 4px;
+}
+
+nav a:hover,
+nav a:focus {
+    color: #d4ef9e;
+}
+
+/* Main content */
+main {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 25px 5%;
+}
+
+section {
+    width: 100%;
+}
+
+.hero {
+    padding: 35px 5%;
+    text-align: center;
+    background-color: #e4efdf;
+}
+
+h1 {
+    font-size: clamp(1.7rem, 4vw, 2.7rem);
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: clamp(1.3rem, 3vw, 2rem);
+}
+
+p {
+    overflow-wrap: anywhere;
+}
+
+/* Images and media */
+img,
+video,
+iframe {
+    max-width: 100%;
+}
+
+img {
+    height: auto;
+}
+
+/* Forms */
+form {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    display: block;
+    width: 100%;
+    min-width: 0;
+    min-height: 44px;
+    padding: 10px 12px;
+    border: 1px solid #b9c8b8;
+    border-radius: 6px;
+    font: inherit;
+    background-color: white;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 2px solid #37834a;
+    outline-offset: 1px;
+}
+
+/* Buttons */
+button,
+input[type="submit"] {
+    display: inline-block;
+    max-width: 100%;
+    min-height: 44px;
+    margin-top: 18px;
+    padding: 11px 18px;
+    border: none;
+    border-radius: 6px;
+    background-color: #23733b;
+    color: white;
+    font: inherit;
+    cursor: pointer;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: #18572c;
+}
+
+/* Cards and results */
+.card,
+.result,
+.dashboard-card {
+    max-width: 100%;
+    margin: 18px 0;
+    padding: 18px;
+    background-color: white;
+    border-radius: 10px;
+    overflow-wrap: anywhere;
+}
+
+[hidden] {
+    display: none !important;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #d5dfd2;
+    text-align: left;
+    overflow-wrap: anywhere;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    margin-top: 30px;
+    padding: 20px 5%;
+    background-color: #174d2b;
+    color: white;
+    text-align: center;
+}
+
+/* =====================================
+   TABLETS
+   ===================================== */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px 4%;
+    }
+
+    .logo img {
+        max-width: 130px;
+        margin: 0 auto;
+    }
+
+    nav {
+        width: 100%;
+        gap: 5px 12px;
+    }
+
+    nav a {
+        font-size: 14px;
+        padding: 8px 5px;
+    }
+
+    main {
+        padding: 20px 4%;
+    }
+
+    .hero {
+        padding: 28px 4%;
+    }
+
+    form {
+        padding: 20px;
+    }
+}
+
+/* =====================================
+   MOBILE PHONES
+   ===================================== */
+@media (max-width: 480px) {
+    body {
+        font-size: 15px;
+    }
+
+    header {
+        padding: 12px 15px;
+        gap: 10px;
+    }
+
+    .logo img {
+        max-width: 105px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+    }
+
+    nav a {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        font-size: 15px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    .hero {
+        padding: 24px 15px;
+    }
+
+    h1 {
+        font-size: 1.7rem;
+    }
+
+    h2 {
+        font-size: 1.35rem;
+    }
+
+    form {
+        padding: 16px;
+        margin: 15px auto;
+    }
+
+    input,
+    select,
+    textarea,
+    button,
+    input[type="submit"] {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .card,
+    .result,
+    .dashboard-card {
+        padding: 15px;
+    }
+
+    /* Let wide tables scroll rather than break the page */
+    table {
+        display: block;
+        max-width: 100%;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    footer {
+        padding: 16px 12px;
+        font-size: 14px;
+    }
+}
